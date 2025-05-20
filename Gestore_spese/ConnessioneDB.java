@@ -23,7 +23,7 @@ public class ConnessioneDB{
         System.out.println("database creato");
 
     }catch(PSQLException e) {
-        if (e.getMessage().contains("esiste già")) {
+        if (e.getMessage().contains("esiste gia'")) {
             System.out.println("database gia esistente");
         }else{ 
             throw e;}} 
