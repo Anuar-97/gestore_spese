@@ -40,7 +40,6 @@ public class ConnessioneDB{
         id SERIAL PRIMARY KEY,
         nome TEXT NOT NULL,
         valore REAL NOT NULL,
-        valuta TEXT NOT NULL,
         tipologia TEXT NOT NULL,
         data DATE NOT NULL);
     """;
